@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* div화면 가운데 정렬 */
+div{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+header{
+    width: 700px;
+    height: 100px;
+    background-color: bisque;
+}
+nav{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    float: left;
+}
+section{
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    float: right;
+}
+footer{
+    clear: both;
+    width: 700px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}

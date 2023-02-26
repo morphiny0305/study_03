@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* 전체선택자 초기세팅 */
+*{margin: 0;padding: 0;}
+
+/* 종속선택자 */
+div#wrap{width: 800px;margin: auto;}
+
+/* 태그선택자 */
+header{width: 800px;height: 100px;background-color: skyblue;}
+
+/* 하위선택자 */
+header h1{background-color: antiquewhite;width: 200px;height: 100px;}
+
+/* 아이디선택자 */
+#content{
+    width: 100%;height: 200px;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+/* 하위선택자 */
+#content nav{width: 150px;height: 200px;float: left;}
+#content nav ul li{list-style: none;}
+#content section{width: 400xp;height: 200px;float: right;}
+
+/* 그룹선택자 */
+.menu, h2, #text{color: red;}
+
+footer{clear: both;width: 800px;height: 100px;background-color: goldenrod;}
+
+/* 동위선택자 */
+footer nav ul li + li{color: red;}

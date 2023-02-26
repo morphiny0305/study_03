@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동위선택자</title>
+    <style>
+        /* 선택자A + 선택자B : 내 바로 뒤에 있는 태그 선택 */
+        h1 + h2{color: red;}
+
+        /* 선택자A ~ 선택자B : 내 뒤에 있는 동급인 범위선택*/
+        h1 ~ h2{background-color: yellow;}
+    </style>
+</head>
+<body>
+    <h1>I am h1</h1>
+    <h2>I am h2</h2>
+    <h2>I am h2</h2>
+    <h2>I am h2</h2>
+    <h3>I am h3</h3>
+    <h1>I am h1</h1>
+    <h2>I am h2</h2>
+    <h1>I am h1</h1>
+</body>
+</html>

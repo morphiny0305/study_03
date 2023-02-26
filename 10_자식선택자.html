@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자식선택자</title>
+    <style>
+        /* 하위선택자 */
+        /* section ul{border: 2px solid red;} */
+
+        /* 자식선택자 */
+        section > ul{border: 2px solid red;}
+    </style>
+</head>
+<body>
+    <section> <!--부모-->
+        <h1>자식선택자입력방법</h1> <!--자식1-->
+        <p>자식선택자와 하위선택자 차이</p> <!--자식2-->
+        <ul> <!--자식3-->
+            <li> <!--후손-->
+                자식선택자
+                <ul> <!--후손-->
+                    <li>부모밑에 있는 자식태그에만</li> <!--후손-->
+                    <li>스타일이 적용됨</li>
+                    <li>선택자A &gt; 선택자B</li>
+                </ul>
+            </li>
+            <li>
+                하위선택자
+                <ul>
+                    <li>상위요소에 포함된</li>
+                    <li>자식부터 후손까지 모두 적용</li>
+                    <li>공백으로 구분</li>
+                    <li>선택자A 선택자B</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

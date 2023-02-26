@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* div가운데 정렬 */
+.wrap{width: 800px;height: 400px;margin: auto;}
+
+/* header */
+.header{width: 800px;height: 100px;background-color: antiquewhite;}
+.logo{color: brown;}
+
+/* nav */
+.nav{width: 150px;height: 200px;background-color: cadetblue;float: left;}
+.text{background-color: chocolate; color: aliceblue;}
+.text2{background-color: blueviolet;}
+
+/* section */
+.section{width: 400px;height: 200px;background-color: palegoldenrod;float: right;}
+.title{text-align: center;color: red;}
+
+/* footer */
+footer{
+    clear: both;
+    width: 800px;
+    height: 100px;
+    background-color: goldenrod;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하위선택자</title>
+    <style>
+        section div{color: red;}
+    </style>
+</head>
+<body>
+    <section> <!--부모-->
+        <div> <!--자식-->
+            나는 div태그 소속
+            <h1>나는h1소속</h1> <!--후손-->
+            <h2>나는h2소속</h2> <!--후손-->
+            <ul> <!--후손-->
+                <li>나는 메뉴</li>
+                <li>나는 메뉴</li>
+                <li>나는 메뉴</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
